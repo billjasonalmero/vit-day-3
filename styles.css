@@ -4,6 +4,6 @@ body {
   background: orange;
   color: white;
 }
-#new-container {
-  font-size: 30
+h1, h2, h3 {
+  color: hotpink
 }
