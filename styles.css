@@ -1,9 +1,45 @@
-/* Add your custom css here */
 
-body {
-  background: orange;
-  color: white;
+		/* low resolution, 480px and below  */ @media only screen and  (min-width: 481px){
+
+      body {
+        background-color: #808080;
+        font-family: "Times New Roman", Times, Serif;
+        }
+      }
+  
+      /* medium resolution, 481px to 1023px */ @media only screen and (min-width: 760px) {
+  
+      body {
+        background-color: #607D8B;
+        font-family: Arial, Helvetica, sans-sarif;                                                 
+        }
+      }
+      /* high resolution, 1024px or higher */ @media only screen and (min-width: 1024px) {
+  
+      body{
+        background-color: #795548;
+        font-family: "Comic Sans Ms", cursive, sans-sarif;
+        }
+      }
+
+
+
+
+
+
+
+
+
+
+/* COMMENT EXAMPLE
+@media screen and (min-width:760px){
+  body{
+    background: green;
+  }
 }
-h1, h2, h3 {
-  color: hotpink
+
+
+h1{
+  font-size: 120px;
 }
+*/
